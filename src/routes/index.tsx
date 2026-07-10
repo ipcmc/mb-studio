@@ -76,9 +76,6 @@ function Hero() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 hidden md:block">
-            <img src={logoAsset.url} alt="" className="h-24 w-auto opacity-90" />
-          </div>
         </div>
       </div>
     </section>
