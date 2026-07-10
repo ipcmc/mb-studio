@@ -52,7 +52,7 @@ function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="#agenda"
+              href="#contato"
               className="inline-flex items-center rounded-full bg-primary px-7 py-3 text-[11px] tracking-[0.25em] uppercase text-primary-foreground hover:bg-rose transition-colors"
             >
               Agende sua visita
