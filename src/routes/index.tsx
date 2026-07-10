@@ -335,7 +335,7 @@ function Index() {
       <main>
         <Hero />
         <About />
-        <Agenda />
+        
         <Procedimentos />
         <Loja />
         <Contato />
