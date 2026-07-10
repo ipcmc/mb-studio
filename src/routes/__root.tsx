@@ -87,10 +87,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Realce a sua beleza natural com técnicas delicadas e sofisticadas no my beauty studio.",
+          "my beauty studio: design de sobrancelhas, micropigmentação, cílios e cuidados de beleza com um toque delicado e sofisticado.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "my beauty — studio de estética & sobrancelhas" },
+      { name: "twitter:description", content: "my beauty studio: design de sobrancelhas, micropigmentação, cílios e cuidados de beleza com um toque delicado e sofisticado." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/27ef0c06-85c0-4275-9920-597cb9a039ff/id-preview-32fb6d9a--0a5b3aaa-54db-4b19-98c1-03a2fba54a40.lovable.app-1783697605824.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/27ef0c06-85c0-4275-9920-597cb9a039ff/id-preview-32fb6d9a--0a5b3aaa-54db-4b19-98c1-03a2fba54a40.lovable.app-1783697605824.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
