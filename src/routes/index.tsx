@@ -21,13 +21,12 @@ function Nav() {
         </a>
         <nav className="hidden md:flex items-center gap-8 text-[11px] tracking-[0.25em] uppercase text-foreground/80">
           <a href="#sobre" className="hover:text-rose transition-colors">Sobre</a>
-          <a href="#agenda" className="hover:text-rose transition-colors">Agenda</a>
           <a href="#procedimentos" className="hover:text-rose transition-colors">Procedimentos</a>
           <a href="#loja" className="hover:text-rose transition-colors">Loja</a>
           <a href="#contato" className="hover:text-rose transition-colors">Contato</a>
         </nav>
         <a
-          href="#agenda"
+          href="#contato"
           className="hidden md:inline-flex items-center rounded-full bg-primary px-5 py-2 text-[10px] tracking-[0.25em] uppercase text-primary-foreground hover:bg-rose transition-colors"
         >
           Agendar
@@ -53,7 +52,7 @@ function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="#agenda"
+              href="#contato"
               className="inline-flex items-center rounded-full bg-primary px-7 py-3 text-[11px] tracking-[0.25em] uppercase text-primary-foreground hover:bg-rose transition-colors"
             >
               Agende sua visita
@@ -128,37 +127,6 @@ function About() {
   );
 }
 
-function Agenda() {
-  return (
-    <section id="agenda" className="bg-blush/50 py-20 md:py-24">
-      <div className="container-page grid md:grid-cols-[1.4fr_1fr] gap-10 items-center rounded-[2rem]">
-        <div>
-          <div className="h-px w-12 bg-rose mb-6" />
-          <h2 className="text-4xl md:text-5xl font-light tracking-wide">AGENDAMENTO</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Consulte valores e horários disponíveis.
-          </p>
-          <a
-            href="#contato"
-            className="mt-8 inline-flex items-center rounded-full bg-foreground px-7 py-3 text-[11px] tracking-[0.25em] uppercase text-background hover:bg-rose transition-colors"
-          >
-            Agenda e valores
-          </a>
-        </div>
-        <div className="aspect-square overflow-hidden rounded-[2rem]">
-          <img
-            src={procedureFace}
-            alt=""
-            loading="lazy"
-            width={1200}
-            height={1200}
-            className="h-full w-full object-cover"
-          />
-        </div>
-      </div>
-    </section>
-  );
-}
 
 const procedimentos = [
   {
@@ -366,7 +334,7 @@ function Index() {
       <main>
         <Hero />
         <About />
-        <Agenda />
+        
         <Procedimentos />
         <Loja />
         <Contato />
