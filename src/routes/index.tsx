@@ -26,7 +26,7 @@ function Nav() {
           <a href="#contato" className="hover:text-rose transition-colors">Contato</a>
         </nav>
         <a
-          href="#agenda"
+          href="#contato"
           className="hidden md:inline-flex items-center rounded-full bg-primary px-5 py-2 text-[10px] tracking-[0.25em] uppercase text-primary-foreground hover:bg-rose transition-colors"
         >
           Agendar
