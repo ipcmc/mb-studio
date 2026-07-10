@@ -87,7 +87,7 @@ function About() {
       <div className="container-page grid md:grid-cols-[1fr_1.2fr] gap-14 items-center">
         <div className="aspect-[4/5] overflow-hidden rounded-[2rem]">
           <img
-            src={Products}
+            src={AboutPortrait}
             alt="Profissional do my beauty"
             loading="lazy"
             width={1000}
