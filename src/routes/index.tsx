@@ -22,7 +22,6 @@ function Nav() {
         <nav className="hidden md:flex items-center gap-8 text-[11px] tracking-[0.25em] uppercase text-foreground/80">
           <a href="#sobre" className="hover:text-rose transition-colors">Sobre</a>
           <a href="#procedimentos" className="hover:text-rose transition-colors">Procedimentos</a>
-          <a href="#procedimentos" className="hover:text-rose transition-colors">Procedimentos</a>
           <a href="#loja" className="hover:text-rose transition-colors">Loja</a>
           <a href="#contato" className="hover:text-rose transition-colors">Contato</a>
         </nav>
